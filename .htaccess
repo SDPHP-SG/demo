@@ -1,0 +1,5 @@
+RewriteEngine off
+#Don't redirect calls to index.php, files under the assets or css folders, or robots.txt
+RewriteCond $1 !^(index\.php)
+#Redirect calls to any files except those in the above rewritecond to index.php
+RewriteRule ^(.*)$ /index.php/$1 [L]

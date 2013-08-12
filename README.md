@@ -1,4 +1,4 @@
-Demo Repository
+MVC Demo
 ====
 
-San Diego PHP Study Group Demo's
+Simple Demo Created By Matt Gass to show how MVC works.
